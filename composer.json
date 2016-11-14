@@ -1,0 +1,12 @@
+{
+    "name": "deshi/epay",
+    "description": "This is epay package",
+    "authors": [
+        {
+            "name": "deshi9012",
+            "email": "ilia.bojadzhiev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

@@ -2,6 +2,10 @@
     "name": "deshi/epay",
     "description": "This is epay package",
     "license":"MIT",
+    "keywords": [
+        "Epay"
+    ],
+
     "authors": [
         {
             "name": "deshi9012",
@@ -10,6 +14,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "illuminate/support": "~5.1",
          "php": ">=5.3.0"
     },
     "autoload": {

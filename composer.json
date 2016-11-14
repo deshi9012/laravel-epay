@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Deshi\\Epay\\": "src/Epay"
+            "Deshi\\Epay\\": "src"
         }
     },
 

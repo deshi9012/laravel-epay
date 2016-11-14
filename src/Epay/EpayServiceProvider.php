@@ -11,9 +11,11 @@ class EpayServiceProvider extends ServiceProvider {
      * @return void
      */
     public function boot() {
-    
+        //
+        $upOne = realpath(__DIR__ . '/..');
+        
         $this->publishes([
-            __DIR__.'/config/epay.php'=>config_path('epay.php')
+            $upOne.'/config/epay.php'=>config_path('epay.php')
         ]);
     }
 
@@ -23,7 +25,7 @@ class EpayServiceProvider extends ServiceProvider {
      * @return void
      */
     public function register() {
-
+        
         $this->app->bind('epay','Deshi\Epay\Epay\Epay');
             
     }

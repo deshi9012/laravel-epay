@@ -24,4 +24,3 @@ I.Instalation
  5.php artisan vendor:publish
  
  6.in routes add Epay::test() and see what laravel facade return
-  7.

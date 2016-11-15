@@ -15,7 +15,7 @@ class EpayServiceProvider extends ServiceProvider {
         $upOne = realpath(__DIR__ . '/..');
         
         $this->publishes([
-            $upOne.'/config/epay.php'=>config_path('epay.php')
+            $upOne.'/config/deshi-epay.php'=>config_path('deshi-epay.php')
         ]);
     }
 
